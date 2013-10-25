@@ -10,7 +10,7 @@ backtut.Collections = backtut.Collections || {};
         localStorage: new Backbone.LocalStorage('backbone-generator-todos'),
 
         initialize: function (){
-            this.model = backtut.Models.TodosModel;
+            this.model = backtut.Models.TodoModel;
         }
 
     });
