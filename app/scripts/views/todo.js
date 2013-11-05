@@ -9,6 +9,8 @@ backtut.Views = backtut.Views || {};
 
         tagName: 'li',
 
+        className: 'li-item',
+
         template: JST['app/scripts/templates/todo.hbs'],
 
         events: {
