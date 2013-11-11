@@ -75,30 +75,83 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 	
-  <!-- Begin adding your site or application content here -->
-
+<!-- Add your site or application content here -->
+<div class="container clearfix">
+    
   <!-- This is the header information. You can add things like logos and navigation here. -->
-  <header role="banner" class="row">
+    <header role="banner" class="clearfix">
+    <div class="logo">
+      <h1><img src="http://placehold.it/250x100&text=[Contact Logo]"></h1>
+    </div>
+  <!-- Navigation. This navigation uses the three line approach for small viewports. Check documentation for other examples -->
+    <div class="menu-button">Menu</div>
+    <a href="#main" class="skip">Skip navigation</a>
     <nav role="navigation" id="nav" class="toggle">
-    </nav>
-  </header>
+      <ul>
+      <li class="top-level"><a href="">Link 1</a></li>
+      <li class="top-level"><a href="">Link 2</a></li>
+      <li class="top-level"><a href="">Link 3</a></li>
+      <li class="top-level"><a href="">Link 4</a></li>
+      <li class="top-level"><a href="">Link 5</a></li>
+      </ul> 
+      </nav>
+  <!-- End Of Navigation -->
+    </header>
+  <!-- End Of Header -->
 			
   <!-- The Main content area can be used to create lots of different block areas. 
   As Jeffery Zeldman once said, "Content precedes design. Design in the absence 
   of content is not design, it's decoration." -->
 			
-  <div role="main" class="content">
-    <div class="jumbotron">
-      <h1>'Allo, 'Allo!</h1>
-      <section id="todo-app">
+  <div role="main" class="content clearfix">
+    <section class="row">
 
+
+      <!-- Menu Container -->
+      <aside class="four columns">
+      <div class="row">
+      <h5>Find Us</h5>
+            <img src="http://placehold.it/500x250&text=[Map]" />
+        <a href="#">View Map</a>
+        </div>
+        <div class="vcard">
+        <p class="adr">
+        <span class="street-address">Wirefy Address</span><br>
+        <span class="region">Niceville, NL</span><br>
+        <span class="postal-code">A1A 2B2</span><br>
+        <span class="country-name">Canada</span>
+        </p>
+        <p class="tel">+1 (XXX) XXX-XXXX</p>
+        </div>        
+      </aside>
+   
+      <!-- App Section --> 
+      
+      <section class="eleven columns alt-spacing">
+        <h3>Visibility</h3>
+        <div id="todo-app">
+        
+        </div>  
       </section>
-    </div>
+
+    </section>
   </div>
-	
-  <!-- This is you can place your footer information like menu links, contact information, etc -->		
-  <footer role="contentinfo" class="clearfix">
-  </footer>
+  <!-- Footer -->
+    <hr>      
+      <footer role="contentinfo" class="row">
+    <p class="ten columns">&copy; Copyright Contact Template Wirefy.</p>
+    <div class="six columns">
+      <ul class="link-list">
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+        </ul>
+    </div>
+      </footer><!-- End Of Footer -->
+ 
+  </div><!-- End Of Container -->
 
   <!-- JS - Add or remove any of the scripts to suit the functionality you wish to display. 
   ================================================== -->
