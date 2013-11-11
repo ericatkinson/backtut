@@ -1,6 +1,8 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
-@import 'sass-bootstrap/lib/bootstrap';
+//@import 'sass-bootstrap/lib/bootstrap';
+
+@import 'wirefy/sass/layout';
 
 .hero-unit {
     margin: 50px auto 0 auto;
@@ -107,7 +109,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+//        max-width: 1024px;
     }
 
     /* Remove the padding we set earlier */
