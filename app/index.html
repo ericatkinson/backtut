@@ -1,78 +1,147 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>backtut</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<!DOCTYPE html>
+<!-- 
+Wirefy by Chris Da Sie
+Version: 2.1.2
+URL: https://getwirefy.com
+Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+-->
+
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+ <!-- Basic Page Needs
+================================================= -->
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Insights C3M</title>
+ <meta name="description" content="">
+ <meta name="author" content="">
+ 
+ <!-- Mobile Specific Metas
+================================================= -->
+ <meta name="HandheldFriendly" content="True">
+ <meta name="MobileOptimized" content="320">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <div class="container">
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <section id="todo-app">
+ 
+ 
+ <!-- CSS - These are your main CSS files. All base styles can be found in the base.css and any additional styles 
+ or overwrites should be used in the layout.css.  
+================================================= -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild --><!-- Compiled from main.scss -->
+ 
+ <!-- Browser Specific Javascript
+================================================= -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
 
-                </section>
-            </div>
-        </div>
+ <!--[if (lt IE 9) & (!IEMobile)]>
+ <script src="js/vendor/selectivizr-min.js"></script>
+ <link rel="stylesheet" href="css/base-ie.css">
+ <link rel="stylesheet" href="css/layout-ie.css">
+ <![endif]-->
+
+ <!-- Favicon and apple-touch-icon.png in the img folder. Include the ones you need.
+ ================================================== -->
+ <link rel="shortcut icon" href="img/startup/favicon.ico">
 
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+ <!-- Windows 8 startup screen
+ ================================================== -->
+<meta name="application-name" content="Insights C3M"/> 
+<meta name="msapplication-TileColor" content="#111111"/> 
+<meta name="msapplication-TileImage" content="img/22905266-8309-4b75-aa81-6d270415e8d7.png"/>
+ 
+ <!-- Font Smoothing FF/Windows
+ ================================================== -->
+ <meta http-equiv="cleartype" content="on">
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/underscore/underscore.js"></script>
-        <script src="bower_components/backbone/backbone.js"></script>
-        <script src="bower_components/handlebars/handlebars.js"></script>
-        <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
-        <!-- endbuild -->
+</head>
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
-        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
-        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
-        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
-        <script src="bower_components/sass-bootstrap/js/button.js"></script>
-        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
-        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
-        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
-        <!-- endbuild -->
+<body>
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+	
+  <!-- Begin adding your site or application content here -->
 
-        <!-- build:js({.tmp,app}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <script src="scripts/templates.js"></script>
-        <script src="scripts/collections/todos.js"></script>
-        <script src="scripts/models/todo.js"></script>
-        <script src="scripts/views/todos.js"></script>
-        <script src="scripts/views/todo.js"></script>
-        <!-- endbuild -->
+  <!-- This is the header information. You can add things like logos and navigation here. -->
+  <header role="banner" class="row">
+    <nav role="navigation" id="nav" class="toggle">
+    </nav>
+  </header>
+			
+  <!-- The Main content area can be used to create lots of different block areas. 
+  As Jeffery Zeldman once said, "Content precedes design. Design in the absence 
+  of content is not design, it's decoration." -->
+			
+  <div role="main" class="content">
+  </div>
+	
+  <!-- This is you can place your footer information like menu links, contact information, etc -->		
+  <footer role="contentinfo" class="clearfix">
+  </footer>
+
+  <!-- JS - Add or remove any of the scripts to suit the functionality you wish to display. 
+  ================================================== -->
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/backbone/backbone.js"></script>
+  <script src="bower_components/handlebars/handlebars.js"></script>
+  <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+  <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+  <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+  <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+  <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+  <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+  <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+  <script src="bower_components/sass-bootstrap/js/button.js"></script>
+  <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+  <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+  <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+  <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+  <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js({.tmp,app}) scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <script src="scripts/templates.js"></script>
+  <script src="scripts/collections/todos.js"></script>
+  <script src="scripts/models/todo.js"></script>
+  <script src="scripts/views/todos.js"></script>
+  <script src="scripts/views/todo.js"></script>
+  <!-- endbuild -->
+
+  <script src="bower_components/wirefy/js/plugins.js"></script>
+  <script src="bower_components/wirefy/js/script.js"></script>
+  <script src="bower_components/wirefy/js/helper.js"></script>
+  
+
 </body>
 </html>
