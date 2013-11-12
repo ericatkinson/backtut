@@ -19,7 +19,7 @@ $(document).ready(function () {
 });
 
 
-/* Responsive Off-canvas Menu */
+/* Responsive Off-canvas Menu behavior */
 (function(window, document, undefined)
 {
 
