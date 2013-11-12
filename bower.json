@@ -10,7 +10,8 @@
     "handlebars": "~1.0.0",
     "backbone.localStorage": "~1.1.7",
     "wirefy": "*",
-    "Responsive-Off-Canvas-Menu": "https://github.com/dbushell/Responsive-Off-Canvas-Menu.git"
+    "Responsive-Off-Canvas-Menu": "https://github.com/dbushell/Responsive-Off-Canvas-Menu.git",
+    "normalize-css": "~2.1.3"
   },
   "devDependencies": {}
 }
