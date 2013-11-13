@@ -1,3 +1,9 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+//@import 'sass-bootstrap/lib/bootstrap';
+
+@import 'wirefy/sass/layout';
+
 @charset "UTF-8";
 @-ms-viewport {
   width: device-width;
@@ -489,11 +495,12 @@ footer[role="contentinfo"] {
   }
 }
 
-$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
-//@import 'sass-bootstrap/lib/bootstrap';
-
-@import 'wirefy/sass/layout';
+@media only screen and (min-width: 61.5em) {
+  /* 984 =================================================== */
+  nav{
+  float:none;
+  }
+}
 
 .hero-unit {
     margin: 50px auto 0 auto;
