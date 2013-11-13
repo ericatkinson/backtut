@@ -35,7 +35,9 @@ backtut.Views = backtut.Views || {};
 
         toggleEdit: function () {
             var input = this.$('form input');
-            var title = input.val().trim();
+            var title = input.val();
+            var title = $.trim(title);
+//            console.log(title);            
 
             if (!title) {
                 this.model.destroy();

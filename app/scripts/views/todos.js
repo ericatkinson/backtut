@@ -32,7 +32,9 @@ backtut.Views = backtut.Views || {};
             createTodo: function (event) {
                 event.preventDefault();
 
-                var title = this.$('#new-todo').val().trim();
+                var title = this.$('#new-todo').val();
+                var title = $.trim(title);
+//                console.log(title);
 
                 if (title) {
                     this.collection.create(new backtut.Models.TodoModel({
