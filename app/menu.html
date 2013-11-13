@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Insights C3M</title>
-
-    <script src="bower_components/modernizr/modernizr.js"></script>
-
-    <!--[if (gt IE 8) | (IEMobile)]><!-->
-<!--     <link rel="stylesheet" href="bower_components/Responsive-Off-Canvas-Menu/css/step4.css">
-     -->    <!--<![endif]-->
-    <!--[if (lt IE 9) & (!IEMobile)]>
-    <link rel="stylesheet" href="styles/ie.css">
-    <![endif]-->
+  <title>Insights C3M</title>
 
      <!-- CSS - These are your main CSS files. All base styles can be found in the base.css and any additional styles 
  or overwrites should be used in the layout.css.  
@@ -24,6 +15,16 @@
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild --><!-- Compiled from main.scss -->
 
+  <!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="styles/offcanvas-menu.css">
+  <!--<![endif]-->
+  <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="styles/ie.css">
+  <![endif]-->  
+
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- Media Queries Polyfill https://github.com/shichuan/mobile-html5-boilerplate/wiki/Media-Queries-Polyfill -->
+  <script>Modernizr.mq('(min-width:0)') || document.write('<script src="bower_components/respond-minmax/respond.min.js">\x3C/script>')</script>   
 
 </head>
 <body>
@@ -90,9 +91,6 @@
 <!--/#inner-wrap-->
 </div>
 <!--/#outer-wrap-->
-
-<script src="bower_components/Responsive-Off-Canvas-Menu/js/main.jquery.js"></script>
-
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
