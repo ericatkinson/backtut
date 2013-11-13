@@ -274,7 +274,7 @@ body {
   position: relative;
   margin: 0 auto;
   padding: 1.5em 1.25em;
-  max-width: 60em;
+/*   max-width: 60em; */
 }
 
 .close-btn {
